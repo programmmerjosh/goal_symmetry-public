@@ -1,0 +1,166 @@
+name: goal_symmetry
+description: Flutter version of goal file system
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# android version:
+# version: 1.0.2+28
+# ios version:
+# version: 1.0.2+63
+version: 1.1.1+31
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_text_kit: ^4.2.1
+  animations: ^2.0.2
+  cupertino_icons: ^1.0.3
+  flutter_countdown_timer: ^4.1.0
+  flutter_cupertino_data_picker: ^0.8.6
+  flutter_launcher_icons: ^0.9.2
+  flutter_local_notifications: ^9.4.0
+  flutter_material_pickers: ^3.1.2
+  flutter_native_timezone: ^2.0.0
+  flutter_phoenix: ^1.0.0
+  flutter_slidable: ^1.2.0
+  http: ^0.13.3
+  implicitly_animated_reorderable_list: ^0.4.2
+  in_app_purchases_paywall_ui: ^0.5.1
+  intl: ^0.17.0
+  introduction_screen: ^3.0.0
+  lottie: ^1.2.1
+  overlay_support: ^1.2.1
+  provider: ^6.0.2
+  purchases_flutter: ^3.0.0
+  rate_my_app: ^1.1.1
+  shared_preferences: ^2.0.6
+  slide_countdown_clock: ^1.0.3
+  sqflite: ^2.0.0+3
+  theme_provider: ^0.5.0
+  tutorial_coach_mark: ^1.0.0
+  url_launcher: ^6.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "dev_assets/blue_icon.png"
+  adaptive_icon_background: "linear-gradient(to left top, #06bfe1, #00aefe, #0096ff, #5070ff, #b812eb)"
+  adaptive_icon_foreground: "dev_assets/transparent_icon.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/alberta-2297204_640-min.jpg
+    - assets/images/arrow-2886223_640-min.jpg
+    - assets/images/ferrari-458-spider-2932191_640-min.jpg
+    - assets/images/family-2610205_640-min.jpg
+    - assets/images/life-862985_640-min.jpg
+    - assets/images/credit-card-1520400_640-min.jpg
+    - assets/images/yoga-2959226_640-min.jpg
+    - assets/images/knowledge-1052010_640-min.jpg
+    - assets/images/learn-1996845_640-min.jpg
+    - assets/images/agility-1850711_640-min.jpg
+    - assets/images/office-1209640_640-min.jpg
+    - assets/images/extra-300-2666539_640-min.jpg
+    - assets/images/goal_symmetry_light_bg copy-min.jpg
+    - assets/images/question-1015308_1920-min.jpg
+    - assets/lottie_files/28702-done.json
+    - assets/lottie_files/24989-wave-variant.json
+    - assets/lottie_files/66615-wave-blue-lines.json
+    - assets/images/TT-interphases-var-roman-min.png
+    - assets/images/mousecape-screenshot-min.png
+    - dev_assets/defaultIcon512.png
+
+    # TODO: REMOVE ALL APP TUTORIAL PNG FILES AND REFERENCES
+
+    # new tutorials
+    - assets/gifs/add-a-goal.gif
+    - assets/gifs/add-a-milestone.gif
+    - assets/gifs/add-a-note.gif
+    - assets/gifs/date-filter-wall.gif
+    - assets/gifs/delete-a-goal.gif
+    - assets/gifs/delete-a-milestone.gif
+    - assets/gifs/delete-a-note.gif
+    - assets/gifs/division-filter-wall.gif
+    - assets/gifs/edit-a-note.gif
+    - assets/gifs/edit-and-track-a-goal.gif
+    - assets/gifs/edit-update-a-milestone.gif
+    - assets/gifs/multiple-filters-wall.gif
+    - assets/gifs/reorder-a-list.gif
+    - assets/gifs/send-to-wall.gif
+    - assets/gifs/set-a-deadline.gif
+    - assets/gifs/set-an-alert.gif
+    - assets/gifs/sign-up-help.gif
+    - assets/gifs/track-goal-via-milestones.gif
+    - assets/gifs/navigation.gif
+
+    
+    
+    
+    
+    
+    
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: bio-serif
+      fonts:
+        - asset: assets/fonts/BioRhyme-Regular.ttf
+        - asset: assets/fonts/BioRhyme-Bold.ttf
+          weight: 700
+    - family: rale-ss
+      fonts:
+        - asset: assets/fonts/Raleway-Regular.ttf
+        - asset: assets/fonts/Raleway-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Raleway-SemiBoldItalic.ttf
+          weight: 700
+          style: italic
+    - family: san-francisco
+      fonts:
+        - asset: assets/fonts/SFNSText-Regular.ttf
+        - asset: assets/fonts/SFNSText-Bold.ttf
+          weight: 700
+    - family: var-roman
+      fonts:
+        - asset: assets/fonts/TT-Interphases-Var-Roman.ttf
+          weight: 400
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

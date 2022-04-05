@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "310385077736",
+    "firebase_url": "https://goal-symmetry-default-rtdb.firebaseio.com",
+    "project_id": "goal-symmetry",
+    "storage_bucket": "goal-symmetry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310385077736:android:7d2ecc9e3a8fd98b4d485d",
+        "android_client_info": {
+          "package_name": "com.programmmerjosh.goal_symmetry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310385077736-1u0s8rclmsldqqnpr1d07bi601h8h2q7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.programmmerjosh.goal_symmetry",
+            "certificate_hash": "6b35db3becfb80e03eed4ee9e8fce32b3c9abbd4"
+          }
+        },
+        {
+          "client_id": "310385077736-nm2rr6d5urlshtcsi376tt85tujbleff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3eW9Se3Jq6SyV0em-l1Me-m6-0PCXiPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310385077736-nm2rr6d5urlshtcsi376tt85tujbleff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
